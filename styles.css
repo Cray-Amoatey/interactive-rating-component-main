@@ -27,15 +27,7 @@ body {
     margin: auto;
 }
 
-/* .star_container{
-    height: 60px;
-    width: 55px;
-    border-radius: 100px;
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
 
-} */
 .star{
     padding: 1em;
     background-color: blueviolet;
@@ -71,4 +63,11 @@ p{
     border-radius: 100%;
 }
 
+.submit{
+    height: 56px;
+    width: 365px;
+    border-radius: 50px;
+    margin-left:1.7em;
+
+}
 
