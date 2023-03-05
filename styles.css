@@ -69,11 +69,13 @@ body {
     font-weight: 700;
     color: #FFFFFF;
 }
-:hover.circle{
-        background-color: hsl(217, 12%, 63%);
-        cursor: pointer;
+
+:hover.circle {
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
 }
-:active.circle{
+
+:active.circle {
     background-color: hsl(25, 97%, 53%);
 }
 
@@ -91,37 +93,46 @@ input[type="radio"] {
     font-weight: bold;
     color: #FFFFFF;
     background-color: hsl(25, 97%, 53%);
-    border:none 
+    border: none
 }
-:active.submit{
+
+:active.submit {
     background-color: #FFFFFF;
     color: hsl(25, 97%, 53%);
     cursor: pointer;
-    
+
 }
 
 /* thank you card */
-.wrapper-appreciation{
+.wrapper-appreciation {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
-.description p{
+.description h1{
+    margin: 15%;
+    color: #FFFFFF;
+}
+
+.rating-display{
+    background: hsl(216, 12%, 30%);
+        border-radius: 1em;
+    padding: 1% 5%;
+    color: hsl(25, 97%, 53%);;
+
+}
+
+.description p {
     text-align: center;
-
-        display: block;
-            margin-block-start: 1em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-
-                line-height: 1.7em;
-                    /* margin-top: 0; */
-                    font-size: 0.9rem;
-                    width: 350px;
-  
-    
-   
-
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.7em;
+    font-size: 0.9rem;
+    width: 350px;
+    /* margin: 35%; */
+        color: hsl(217, 12%, 63%);
 }
