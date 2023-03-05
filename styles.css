@@ -110,16 +110,16 @@ input[type="radio"] {
     align-items: center;
 }
 
-.description h1{
-    margin: 15%;
+.description h1 {
     color: #FFFFFF;
 }
 
-.rating-display{
+.rating-display {
     background: hsl(216, 12%, 30%);
-        border-radius: 1em;
-    padding: 1% 5%;
-    color: hsl(25, 97%, 53%);;
+    border-radius: 1em;
+    padding: 1% 7%;
+    color: hsl(25, 97%, 53%);
+    margin: 7%;
 
 }
 
@@ -133,6 +133,6 @@ input[type="radio"] {
     line-height: 1.7em;
     font-size: 0.9rem;
     width: 350px;
-    /* margin: 35%; */
-        color: hsl(217, 12%, 63%);
+    margin: 10%;
+    color: hsl(217, 12%, 63%);
 }
