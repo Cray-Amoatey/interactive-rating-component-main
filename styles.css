@@ -18,22 +18,13 @@ body {
     background-color: hsl(213, 19%, 18%);
 }
 
-
-.appreciation-card-container {
-    width: 420px;
-    height: 420px;
-    background-color: hsl(213, 19%, 18%);
-    border-radius: 40px;
-    margin: auto;
-}
-
-
 .star {
     padding: 1em;
     background-color: blueviolet;
     margin-top: 3em;
     border-radius: 50%;
 }
+
 
 .heading {
     margin-top: 1em;
@@ -104,6 +95,15 @@ input[type="radio"] {
 }
 
 /* thank you card */
+.appreciation-card-container {
+    width: 420px;
+    height: 420px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 40px;
+    margin: auto;
+    display: none;
+}
+
 .wrapper-appreciation {
     display: flex;
     flex-direction: column;
