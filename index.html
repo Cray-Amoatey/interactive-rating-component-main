@@ -38,15 +38,15 @@
           <div class="wrapper">
             <span class="star_container">
               <img class="star" src="images/icon-star.svg" alt="star image"
-              /></span>
-              
+            /></span>
+
             <h1 class="heading">How did we do?</h1>
             <p>
               Please let us know how we did with your support request. All
               feedback is appreciated to help us improve our offering!
             </p>
-            <div class="card_numbers">
-              <div class="circle" id="circleRating">
+            <div class="card_numbers" id="circleRating">
+              <div class="circle">
                 <input type="radio" id="1" name="1" value="1" />
                 <label for="1">1</label>
               </div>
@@ -54,50 +54,48 @@
                 <input type="radio" id="2" name="2" value="2" />
                 <label for="2">2</label>
               </div>
-              <div class="circle">
+              <div class="circle"> 
                 <input type="radio" id="3" name="3" value="3" />
                 <label for="3">3</label>
-              </div>
-
+              </div> 
               <div class="circle">
                 <input type="radio" id="4" name="4" value="4" />
                 <label for="4">4</label>
               </div>
-
               <div class="circle">
                 <input type="radio" id="5" name="5" value="5" />
                 <label for="5">5</label>
               </div>
             </div>
           </div>
-          <button type="submit" class="submit">submit</button>
+          <button type="submit" id="submitBtn" class="submit">submit</button>
         </div>
       </section>
-      <section id="appreciationCard"></section>
-      <div class="appreciation-card-container">
-        <div class="wrapper-appreciation">
-          <img
-            class="thank-you"
-            src="images/illustration-thank-you.svg"
-            alt="thank you image"
-          />
-          <div class="rating-display">
-            <p>You selected out of 5</p>
-          </div>
-          <div
-            class="description"
-            style="display: flex; flex-direction: column; align-items: center"
-          >
-            <h1>Thank you!</h1>
-            <p>
-              We appreciate you taking the time to give a rating. If you ever
-              need more support, don’t hesitate to get in touch!
-            </p>
+      <section id="appreciationCard">
+        <div class="appreciation-card-container">
+          <div class="wrapper-appreciation">
+            <img
+              class="thank-you"
+              src="images/illustration-thank-you.svg"
+              alt="thank you image"
+            />
+            <div class="rating-display">
+              <p id="textDisplay">You selected out of 5</p>
+            </div>
+            <div
+              class="description"
+              style="display: flex; flex-direction: column; align-items: center"
+            >
+              <h1>Thank you!</h1>
+              <p>
+                We appreciate you taking the time to give a rating. If you ever
+                need more support, don’t hesitate to get in touch!
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
-
     <div class="attribution">
       Challenge by
       <a
@@ -110,6 +108,7 @@
         >Cray Amoatey</a
       >.
     </div>
+
     <script src="main.js"></script>
   </body>
 </html>

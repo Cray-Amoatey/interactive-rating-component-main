@@ -16,6 +16,7 @@ body {
     margin: auto;
     margin-top: 10%;
     background-color: hsl(213, 19%, 18%);
+    /* display: none; */
 }
 
 .star {
@@ -59,6 +60,7 @@ body {
     padding-left: 6%;
     font-weight: 700;
     color: #FFFFFF;
+
 }
 
 :hover.circle {
@@ -101,6 +103,9 @@ input[type="radio"] {
     background-color: hsl(213, 19%, 18%);
     border-radius: 40px;
     margin: auto;
+    margin-top: 10%;
+}
+#appreciationCard{
     display: none;
 }
 
@@ -114,7 +119,7 @@ input[type="radio"] {
     color: #FFFFFF;
 }
 
-.rating-display {
+.rating-display  {
     background: hsl(216, 12%, 30%);
     border-radius: 1em;
     padding: 1% 7%;
