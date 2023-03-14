@@ -1,11 +1,11 @@
 // const supportCard = document.getElementById("supportCard");
 // const appreciationCard = document.getElementById("appreciationCard");
-const ratingNodes = Array.from( document.querySelectorAll('#circleRating .circle input[type="radio"]'));
+const ratingNodes = Array.from(
+  document.querySelectorAll('#circleRating .circle input[type="radio"]')
+);
 // const rating = document.querySelectorAll('.circle')
 // const submitBtn = document.getElementById("submitBtn");
-let ratingDisplay = document.getElementById('ratingDisplay')
-
-
+let ratingDisplay = document.getElementById("ratingDisplay");
 
 //   function view() {
 //     appreciationCard.style.display = "initial";
@@ -13,7 +13,7 @@ let ratingDisplay = document.getElementById('ratingDisplay')
 //   }
 
 //   submitBtn.addEventListener("click", view);
- 
+
 // for (let i = 0; i<rating.length ; i++) {
 
 //   rating.forEach((circle) => {
@@ -22,22 +22,16 @@ let ratingDisplay = document.getElementById('ratingDisplay')
 //     });
 //   });
 
-
-
 // }
 
 // const rating = document.querySelectorAll(".circle label");
 // const textDisplay = document.getElementById("textDisplay");
 
-
-
 // for (let i = 0; i<rating.length; i++){
 //   rating[i].addEventListener('click', () =>{
 
-
 //     let textDisplay = rating[i].innerHTML = rating
 
-    
 //   })
 
 //   submitBtn.addEventListener('click' , () => {
@@ -46,13 +40,9 @@ let ratingDisplay = document.getElementById('ratingDisplay')
 //     supportCard.style.display = "none";
 //     textDisplay.innerHTML = 'you selected something'
 
-
 //   })
- 
+
 // }
-
-
-
 
 // const rating = document.querySelectorAll(".circle");
 // const textDisplay = document.getElementById("textDisplay");
@@ -71,8 +61,6 @@ let ratingDisplay = document.getElementById('ratingDisplay')
 //   });
 // }
 
-
-
 const rating = document.querySelectorAll(".circle");
 const textDisplay = document.getElementById("textDisplay");
 const submitBtn = document.getElementById("submitBtn");
@@ -83,6 +71,9 @@ let selectedRating = null;
 
 for (let i = 0; i < rating.length; i++) {
   rating[i].addEventListener("click", () => {
+     if (selectedRating !== null) {
+       selectedRating.style.backgroundColor = "";
+     }
     selectedRating = rating[i];
     textDisplay.innerHTML = `You selected ${selectedRating.innerHTML} out of 5`;
     selectedRating.style.backgroundColor = "red";
