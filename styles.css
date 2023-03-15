@@ -60,7 +60,6 @@ body {
     padding-left: 6%;
     font-weight: 700;
     color: #FFFFFF;
-
 }
 
 :hover.circle {
@@ -125,7 +124,6 @@ input[type="radio"] {
     padding: 1% 7%;
     color: hsl(25, 97%, 53%);
     margin: 7%;
-
 }
 
 .description p {
