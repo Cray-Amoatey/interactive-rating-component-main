@@ -139,3 +139,17 @@ input[type="radio"] {
     margin: 10%;
     color: hsl(217, 12%, 63%);
 }
+
+
+.thank-you {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    50% {
+        transform: rotate(-10deg);    
+    }
+     50% {
+        transform: rotate(10deg);
+    } 
+}

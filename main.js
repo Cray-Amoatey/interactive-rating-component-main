@@ -23,3 +23,5 @@ submitBtn.addEventListener("click", () => {
     supportCard.style.display = "none";
   }
 });
+
+
