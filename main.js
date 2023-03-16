@@ -13,7 +13,7 @@ for (let i = 0; i < rating.length; i++) {
     }
     selectedRating = rating[i];
     textDisplay.innerHTML = `You selected ${selectedRating.innerHTML} out of 5`;
-    selectedRating.style.backgroundColor = "red";
+    selectedRating.style.backgroundColor = " hsl(217, 12%, 63%)";
   });
 }
 

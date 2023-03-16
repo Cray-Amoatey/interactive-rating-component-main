@@ -123,7 +123,7 @@ input[type="radio"] {
     border-radius: 1em;
     padding: 1% 7%;
     color: hsl(25, 97%, 53%);
-    margin: 7%;
+    margin: 5%;
 }
 
 .description p {
@@ -142,6 +142,7 @@ input[type="radio"] {
 
 
 .thank-you {
+    margin: 5%;
     animation: float 3s ease-in-out infinite;
 }
 
@@ -152,4 +153,13 @@ input[type="radio"] {
      50% {
         transform: rotate(10deg);
     } 
+}
+
+
+@media all and (min-width: 500px) {
+    .card {
+        padding: 1.9em;
+        /* width: 400px; */
+        margin: auto;
+    }
 }
