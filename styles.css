@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Overpass', sans-serif;
-    background-color: hsl(216, 12%, 8%)
+    background-color: hsl(216, 12%, 8%);
 }
 
 .support-card-container {
@@ -16,7 +16,6 @@ body {
     margin: auto;
     margin-top: 10%;
     background-color: hsl(213, 19%, 18%);
-    /* display: none; */
 }
 
 .star {
@@ -104,7 +103,8 @@ input[type="radio"] {
     margin: auto;
     margin-top: 10%;
 }
-#appreciationCard{
+
+#appreciationCard {
     display: none;
 }
 
@@ -118,7 +118,7 @@ input[type="radio"] {
     color: #FFFFFF;
 }
 
-.rating-display  {
+.rating-display {
     background: hsl(216, 12%, 30%);
     border-radius: 1em;
     padding: 1% 7%;
@@ -148,18 +148,18 @@ input[type="radio"] {
 
 @keyframes float {
     50% {
-        transform: rotate(-10deg);    
+        transform: rotate(-10deg);
     }
-     50% {
+
+    50% {
         transform: rotate(10deg);
-    } 
+    }
 }
 
 
 @media all and (min-width: 500px) {
     .card {
         padding: 1.9em;
-        /* width: 400px; */
-        margin: auto;
+        width: 100%;
     }
 }
